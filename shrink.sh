@@ -20,6 +20,8 @@ sudo pacman -R --noconfirm libmpc
 sudo pacman -R --noconfirm yajl
 sudo pacman -R --noconfirm tar
 sudo pacman -R --noconfirm pkg-config
+sudo pacman -R --noconfirm libarchive
+sudo pacman -R --noconfirm linux-headers
 sudo rm -rf /usr/lib/firmware/*
 sudo rm -rf /usr/include/*
 sudo rm -rf /usr/share/doc/*
