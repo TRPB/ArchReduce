@@ -6,7 +6,6 @@ sudo rm -f /boot/initramfs-linux-fallback.
 sudo pacman -Scc
 sudo pacman --noconfirm -R yaourt 
 sudo pacman --noconfirm -R package-query 
-sudo pacman -Rdd --noconfirm libarchive
 sudo pacmna -R --noconfimr diffutils
 sudo pacman -R --noconfirm gcc
 sudo pacman -R --noconfirm fakeroot
