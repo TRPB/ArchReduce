@@ -2,9 +2,11 @@
 
 sudo localepurge
 sudo rm -f /boot/initramfs-linux-fallback.img
+sudo rm -f /boot/initramfs-linux-fallback.
 sudo pacman -Scc
 sudo pacman --noconfirm -R yaourt 
 sudo pacman --noconfirm -R package-query 
+sudo pacman -Rdd --noconfirm libarchive
 sudo pacmna -R --noconfimr diffutils
 sudo pacman -R --noconfirm gcc
 sudo pacman -R --noconfirm fakeroot
@@ -20,7 +22,7 @@ sudo pacman -R --noconfirm libmpc
 sudo pacman -R --noconfirm yajl
 sudo pacman -R --noconfirm tar
 sudo pacman -R --noconfirm pkg-config
-sudo pacman -R --noconfirm libarchive
+
 sudo pacman -R --noconfirm linux-headers
 sudo rm -rf /usr/lib/firmware/*
 sudo rm -rf /usr/include/*
