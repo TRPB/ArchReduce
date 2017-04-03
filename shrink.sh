@@ -106,7 +106,7 @@ sudo rm -rf /usr/lib/modules/*/kernel/drivers/vhost
 sudo rm -rf /usr/lib/modules/*/kernel/drivers/uwb
 sudo rm -rf /usr/lib/modules/*/kernel/drivers/virtio
 sudo rm -rf /usr/lib/modules/*/kernel/drivers/watchdog
-
+sudo rm -rf /usr/lib/modules/*/kernel/build/vmlinux
 
 sudo rm -rf /var/log/journal/*
 
